@@ -6,7 +6,8 @@ const NotFound = () => {
        <div class="row justify-content-center align-items-center">
             <div class="col-md-6 text-center">
               <img src="assets/img/notfound/6368620.jpg" alt="" className="img-fluid" />
-              <h1>ola</h1>
+              <img src="assets/img/notfound/6368620.jpg" alt="" className="img-fluid" />
+             
           </div>
         </div>
     </>
