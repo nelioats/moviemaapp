@@ -77,7 +77,7 @@ const Master = ({ activeSection }) => {
       <header id="header" className="header fixed-top" data-scrollto-offset="0">
         <div className="container-fluid d-flex align-items-center justify-content-between">
 
-          <a href='/#home' className="logo d-flex align-items-center scrollto me-auto me-lg-0">
+          <a href='/' className="logo d-flex align-items-center scrollto me-auto me-lg-0">
             <h1><img src="../../assets/img/hero/logo_moviema_nav.png" alt="" /></h1>
           </a>
 

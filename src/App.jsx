@@ -11,7 +11,7 @@ function App() {
     <>
       <Routes>
         
-        <Route path='/' element={<Master />}>
+        <Route element={<Master />}>
           <Route index element={<Home />} />
           <Route path='/projetos' element={<Projetos />} />
           <Route path='/projeto/:project_slug' element={<ProjetoDescricao />} />
