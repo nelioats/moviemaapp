@@ -1,4 +1,4 @@
-import {Link, Outlet} from 'react-router-dom'
+import {Link, Outlet, NavLink } from 'react-router-dom'
 import Footer from './Footer'
 import React, { useState, useEffect, useRef } from 'react';
 
@@ -83,12 +83,12 @@ const Master = ({ activeSection }) => {
 
           <nav id="navbar" className="navbar">
             <ul>
-              <li><a className={`nav-link scrollto ${activeLink === 'home' ? '' : ''}`} href="/#home" onClick={toggleMenu}>Home</a></li>
-              <li><a className={`nav-link scrollto ${activeLink === 'about' ? 'active' : ''}`} href="/#about" onClick={toggleMenu}>Sobre</a></li>
-              <li><a className={`nav-link scrollto ${activeLink === 'cta' ? 'active' : ''}`} href="/#cta" onClick={toggleMenu}>Profissionais</a></li>
-              <li><a className={`nav-link scrollto ${activeLink === 'passo' ? 'active' : ''}`} href="/#passo" onClick={toggleMenu}>Passo a Passo</a></li>
-              <li><a className={`nav-link scrollto ${activeLink === 'execucao' ? 'active' : ''}`} href="/#execucao" onClick={toggleMenu}>Execução</a></li>
-              <li><a className={`nav-link scrollto ${activeLink === 'experiencias' ? 'active' : ''}`} href="/#experiencias" onClick={toggleMenu}>Experiências</a></li>
+              <li><NavLink className={`nav-link scrollto ${activeLink === 'home' ? '' : ''}`} href="/#home" onClick={toggleMenu}>Home</NavLink></li>
+              <li><NavLink className={`nav-link scrollto ${activeLink === 'about' ? 'active' : ''}`} href="/#about" onClick={toggleMenu}>Sobre</NavLink></li>
+              <li><NavLink className={`nav-link scrollto ${activeLink === 'cta' ? 'active' : ''}`} href="/#cta" onClick={toggleMenu}>Profissionais</NavLink></li>
+              <li><NavLink className={`nav-link scrollto ${activeLink === 'passo' ? 'active' : ''}`} href="/#passo" onClick={toggleMenu}>Passo a Passo</NavLink></li>
+              <li><NavLink className={`nav-link scrollto ${activeLink === 'execucao' ? 'active' : ''}`} href="/#execucao" onClick={toggleMenu}>Execução</NavLink></li>
+              <li><NavLink className={`nav-link scrollto ${activeLink === 'experiencias' ? 'active' : ''}`} href="/#experiencias" onClick={toggleMenu}>Experiências</NavLink></li>
             </ul>
 
              <i onClick={toggleClass} className={` ${isActive ? 'bi mobile-nav-toggle d-none bi-list' : 'bi mobile-nav-toggle d-none bi-x'}`}></i>
