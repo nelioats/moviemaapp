@@ -1,6 +1,6 @@
 {
-  "homepage": "https://nelioats.github.io/moviemaapp",
-  "name": "appmoviema",
+  "homepage": "https://nelioats.github.io/moviemaapp/",
+  "name": "moviemaapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
