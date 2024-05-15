@@ -59,7 +59,7 @@ const Projetos = () => {
 
             <div className="col-lg-5 align-items-stretch order-1 order-lg-2 img">
               <img
-                src="assets/img/logoprojetos_moviema.jpg"
+                src="./assets/img/logoprojetos_moviema.jpg"
                 alt=""
                 className="img-fluid"
               />
