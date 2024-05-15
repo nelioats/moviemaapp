@@ -71,7 +71,7 @@ const Home = () => {
         <div className="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
           data-aos="zoom-out">
           <img
-            src="/assets/img/hero/logo_moviema_hero.png"
+            src="moviemaapp/assets/img/hero/logo_moviema_hero.png"
             className="img-fluid animated"
           />
           <h2>
@@ -85,10 +85,19 @@ const Home = () => {
             desenvolvem no ensino médio.
           </p>
           <div className="d-flex">
-            <Link to="/projetos" className="btn-get-started scrollto">
+            <Link to="/moviemaapp/projetos" className="btn-get-started scrollto">
               Projetos
             </Link>
-            <a href="https://youtu.be/rtllCba8SVg" className="glightbox btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i><span>Apresentações</span></a>
+            {/* <a href="https://youtu.be/rtllCba8SVg" className="glightbox btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i><span>Apresentações</span></a> */}
+          
+          
+           
+              <span onClick={() => setToggler(!toggler)} className="btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i>Apresentações</span>
+              <FsLightbox	toggler={toggler} sources={["https://youtu.be/rtllCba8SVg"]}/>
+             
+          
+          
+          
           </div>
         </div>
       </section>

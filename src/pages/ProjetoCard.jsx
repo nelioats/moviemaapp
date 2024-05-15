@@ -11,7 +11,7 @@ const ProjetoCard = ({ project_slug, title, description, image }) => {
           </div>
 
           <h2 className="title">
-            <Link to={`/projeto/${project_slug}`}>{title}</Link>
+            <Link to={`/moviemaapp/projeto/${project_slug}`}>{title}</Link>
           </h2>
 
           <div className="content">
@@ -19,7 +19,7 @@ const ProjetoCard = ({ project_slug, title, description, image }) => {
           </div>
 
           <div className="read-more mt-auto">
-            <Link to={`/projeto/${project_slug}`}>Saber mais</Link>
+            <Link to={`/moviemaapp/projeto/${project_slug}`}>Saber mais</Link>
           </div>
         </article>
       </div>
