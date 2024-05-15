@@ -71,7 +71,7 @@ const Home = () => {
         <div className="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
           data-aos="zoom-out">
           <img
-            src="moviemaapp/assets/img/hero/logo_moviema_hero.png"
+            src="./assets/img/hero/logo_moviema_hero.png"
             className="img-fluid animated"
           />
           <h2>
@@ -114,7 +114,7 @@ const Home = () => {
               <div className="col-lg-5">
                 <div className="about-img">
                   <img
-                    src="/assets/img/about.jpg"
+                    src="./assets/img/about.jpg"
                     className="img-fluid"
                     alt=""
                   />

@@ -83,7 +83,7 @@ const Master = ({ activeSection }) => {
 
           <nav id="navbar" className="navbar">
             <ul>
-              <li><a className={`nav-link scrollto ${activeLink === 'home' ? '' : ''}`} href="/" onClick={toggleMenu}>Home</a></li>
+              <li><a className={`nav-link scrollto ${activeLink === 'home' ? '' : ''}`} href="/moviemaapp/" onClick={toggleMenu}>Home</a></li>
               <li><a className={`nav-link scrollto ${activeLink === 'about' ? 'active' : ''}`} href="/moviemaapp/#about" onClick={toggleMenu}>Sobre</a></li>
               <li><a className={`nav-link scrollto ${activeLink === 'cta' ? 'active' : ''}`} href="/moviemaapp/#cta" onClick={toggleMenu}>Profissionais</a></li>
               <li><a className={`nav-link scrollto ${activeLink === 'passo' ? 'active' : ''}`} href="/moviemaapp/#passo" onClick={toggleMenu}>Passo a Passo</a></li>
