@@ -16,7 +16,8 @@ function App() {
           <Route path='/moviemaapp/projetos' element={<Projetos />} />
           <Route path='/moviemaapp/projeto/:project_slug' element={<ProjetoDescricao />} />
 
-          <Route path='*' element={<NotFound />} />
+          <Route path='/moviemaapp/*' element={<NotFound />} />
+          <Route path='/moviemaapp/projeto/*' element={<NotFound />} />
         </Route>
 
        

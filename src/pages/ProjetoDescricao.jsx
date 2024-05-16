@@ -27,7 +27,7 @@ const ProjetoDescricao = () => {
             <h2>{projeto ? projeto.title : "Carregando..."}</h2>
             <ol>
               <li>
-                <Link to="/projetos">Projetos</Link>
+                <Link to="/moviemaapp/projetos">Projetos</Link>
               </li>
               <li>{projeto ? projeto.title : "Carregando..."}</li>
             </ol>

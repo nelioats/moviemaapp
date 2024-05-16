@@ -71,7 +71,7 @@ const Home = () => {
         <div className="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
           data-aos="zoom-out">
           <img
-            src="./assets/img/hero/logo_moviema_hero.png"
+            src="/moviemaapp/assets/img/hero/logo_moviema_hero.png"
             className="img-fluid animated"
           />
           <h2>
@@ -114,7 +114,7 @@ const Home = () => {
               <div className="col-lg-5">
                 <div className="about-img">
                   <img
-                    src="./assets/img/about.jpg"
+                    src="/moviemaapp/assets/img/about.jpg"
                     className="img-fluid"
                     alt=""
                   />
@@ -860,7 +860,7 @@ const Home = () => {
                     </ul>
                   </div>
                   <div className="col-lg-4 order-1 order-lg-2 text-center">
-                    <img src="assets/img/2.jpg" alt="" className="img-fluid" />
+                    <img src="/moviemaapp/assets/img/2.jpg" alt="" className="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -880,7 +880,7 @@ const Home = () => {
                     </p>
                   </div>
                   <div className="col-lg-4 order-1 order-lg-2 text-center">
-                    <img src="assets/img/1.jpg" alt="" className="img-fluid" />
+                    <img src="/moviemaapp/assets/img/1.jpg" alt="" className="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -902,7 +902,7 @@ const Home = () => {
             <div className="row">
               <div className="col-md-6 d-flex align-items-center">
                 <img
-                  src="assets/img/exec01.jpg"
+                  src="/moviemaapp/assets/img/exec01.jpg"
                   className="img-fluid"
                   alt="Imagem 1"
                 />
@@ -932,7 +932,7 @@ const Home = () => {
               </div>
               <div className="col-md-6 d-flex align-items-center">
                 <img
-                  src="assets/img/exec02.jpg"
+                  src="/moviemaapp/assets/img/exec02.jpg"
                   className="img-fluid"
                   alt="Imagem 2"
                 />
@@ -998,42 +998,42 @@ const Home = () => {
               <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-6">
                 <div className="col-6 col-sm-6 col-lg">
                   <img
-                    src="assets/img/parceiros/ufma.jpg"
+                    src="/moviemaapp/assets/img/parceiros/ufma.jpg"
                     className="img-fluid square-img"
                     alt="Imagem 1"
                   />
                 </div>
                 <div className="col-6 col-sm-6 col-lg">
                   <img
-                    src="assets/img/parceiros/uema.jpg"
+                    src="/moviemaapp/assets/img/parceiros/uema.jpg"
                     className="img-fluid square-img"
                     alt="Imagem 2"
                   />
                 </div>
                 <div className="col-6 col-sm-6 col-lg">
                   <img
-                    src="assets/img/parceiros/uni.jpg"
+                    src="/moviemaapp/assets/img/parceiros/uni.jpg"
                     className="img-fluid square-img"
                     alt="Imagem 3"
                   />
                 </div>
                 <div className="col-6 col-sm-6 col-lg">
                   <img
-                    src="assets/img/parceiros/arqueria.jpg"
+                    src="/moviemaapp/assets/img/parceiros/arqueria.jpg"
                     className="img-fluid square-img"
                     alt="Imagem 4"
                   />
                 </div>
                 <div className="col-6 col-sm-6 col-lg">
                   <img
-                    src="assets/img/parceiros/gdam.jpg"
+                    src="/moviemaapp/assets/img/parceiros/gdam.jpg"
                     className="img-fluid square-img"
                     alt="Imagem 5"
                   />
                 </div>
                 <div className="col-6 col-sm-6 col-lg">
                   <img
-                    src="assets/img/parceiros/academia_futebol.jpg"
+                    src="/moviemaapp/assets/img/parceiros/academia_futebol.jpg"
                     className="img-fluid square-img"
                     alt="Imagem 5"
                   />
