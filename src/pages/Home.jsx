@@ -6,6 +6,7 @@ import React, { useState, useEffect, useRef } from 'react';
 const Home = () => {
 
   const [toggler, setToggler] = useState(false);
+  const [anro, setAnro] = useState(false);
 
 
 
@@ -67,12 +68,14 @@ const Home = () => {
 
   return (
     <>
+    
       <section id="home"className="hero-animated d-flex align-items-center fundo">
         <div className="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
-          data-aos="zoom-out">
+         >
+            
           <img
             src="/moviemaapp/assets/img/hero/logo_moviema_hero.png"
-            className="img-fluid animated"
+            className="img-fluid animated"  data-aos="zoom-out"
           />
           <h2>
             Projeto <span>MOVIEMA</span>
@@ -83,24 +86,20 @@ const Home = () => {
             vivência através dos Itinerários Formativos (disciplinas eletivas,
             projetos, oficinas, núcleos de estudo), entre outras atividades que
             desenvolvem no ensino médio.
+            
           </p>
           <div className="d-flex">
             <Link to="/moviemaapp/projetos" className="btn-get-started scrollto">
               Projetos
-            </Link>
-            {/* <a href="https://youtu.be/rtllCba8SVg" className="glightbox btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i><span>Apresentações</span></a> */}
-          
-          
-           
-              <span onClick={() => setToggler(!toggler)} className="btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i>Apresentações</span>
-              <FsLightbox	toggler={toggler} sources={["https://youtu.be/rtllCba8SVg"]}/>
-             
-          
-          
+            </Link>    
+                  <span onClick={() => setAnro(!anro)} className="btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i>Apresentações</span>
+              <FsLightbox	toggler={anro} sources={["https://youtu.be/rtllCba8SVg"]}/>     
           
           </div>
         </div>
       </section>
+               
+
 
       <main id="main">
         {/* <!-- ======= SOBRE Section ======= --> */}
